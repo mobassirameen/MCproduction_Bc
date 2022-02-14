@@ -58,6 +58,6 @@ cmsDriver.py  --python_filename step2-DR_BcToBsPi_Pythia8_13TeV_TuneCP5_RECO.py 
 sed -i "20 a from IOMC.RandomEngine.RandomServiceHelper import RandomNumberServiceHelper\nrandSvc = RandomNumberServiceHelper(process.RandomNumberGeneratorService)\nrandSvc.populate()" step2-DR_BcToBsPi_Pythia8_13TeV_TuneCP5_RECO.py
 
 # ----------- step3: MINIAODSIM -------------------
-Driver.py  --python_filename step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.py --eventcontent MINIAODSIM --datatier MINIAODSIM --fileout file:step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.root --conditions 102X_upgrade2018_realistic_v15 --step PAT --geometry DB:Extended --filein file:step2-DR_BcToBsPi_Pythia8_13TeV_TuneCP5_RECO.root --era Run2_2018 --runUnscheduled --no_exec --mc -n -1;
-sed -i "20 a from IOMC.RandomEngine.RandomServiceHelper import RandomNumberServiceHelper\nrandSvc = RandomNumberServiceHelper(process.RandomNumberGeneratorService)\nrandSvc.populate()" step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.py
+#Driver.py  --python_filename step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.py --eventcontent MINIAODSIM --datatier MINIAODSIM --fileout file:step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.root --conditions 102X_upgrade2018_realistic_v15 --step PAT --geometry DB:Extended --filein file:step2-DR_BcToBsPi_Pythia8_13TeV_TuneCP5_RECO.root --era Run2_2018 --runUnscheduled --no_exec --mc -n -1;
+#sed -i "20 a from IOMC.RandomEngine.RandomServiceHelper import RandomNumberServiceHelper\nrandSvc = RandomNumberServiceHelper(process.RandomNumberGeneratorService)\nrandSvc.populate()" step3-BcToBsPi_Pythia8_13TeV_TuneCP5_MINIAOD.py
 

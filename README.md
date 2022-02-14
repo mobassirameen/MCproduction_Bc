@@ -8,7 +8,7 @@ You can download fragment examples from https://cms-pdmv.cern.ch/mcm
 
 In this tutorial we are using [BcToBsPi](BcToBsPi_Pythia8_13TeV_TuneCP5-fragment.py) as fragment.
 
-* Edit and run the [prepare script](prepare-BcToBsPi_MCH_2018.sh). (Remember signing in to the GRID in order to find the pileup files in DAS (if necessary))
+* Edit and run the [prepare script](prepare-BcToBsPi_MC_2018.sh). (Remember signing in to the GRID in order to find the pileup files in DAS (if necessary))
 
 * You should have produced several python config files for all the steps
 
